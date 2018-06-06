@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bnk.differntviews">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ViewPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Seekbar"
+            android:label="Seek Bar"
+            android:parentActivityName=".ViewPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewPage" />
+        </activity>
+        <activity
+            android:name=".Ratingbar"
+            android:label="Rating Bar"
+            android:parentActivityName=".ViewPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewPage" />
+        </activity>
+        <activity
+            android:name=".Radiobuttons"
+            android:label="Radio Buttons"
+            android:parentActivityName=".ViewPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewPage" />
+        </activity>
+        <activity
+            android:name=".AlertDialoge"
+            android:label="Alert Dialog"
+            android:parentActivityName=".ViewPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewPage" />
+        </activity>
+        <activity
+            android:name=".SearchableMenu"
+            android:label="Search names"
+            android:parentActivityName=".ViewPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewPage" />
+        </activity>
+        <activity android:name=".TabViewActivity" />
+        <activity android:name=".ListActivity"></activity>
+    </application>
+
+</manifest>

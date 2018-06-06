@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bnk.differntviews.ViewPage"
+    android:orientation="vertical">
+    <Button
+        android:text="@string/seekbar"
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#ffffff"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/ratingbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/rating"
+        android:textAllCaps="false"
+        android:backgroundTint="#ffffff"/>
+    <Button
+        android:id="@+id/rdb"
+        android:text="Radio Buttons"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#ffffff"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/alert"
+        android:text="Alert Dialog"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#ffffff"/>
+    <Button
+        android:id="@+id/menu"
+        android:text="Menu searchable"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#ffffff"/>
+    <Button
+        android:id="@+id/tab_view"
+        android:text="Tab View"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#ffffff"/>
+    <Button
+        android:id="@+id/list_view"
+        android:text="List View Drag"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#ffffff"/>
+
+
+
+
+</LinearLayout>

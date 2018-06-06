@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Differnt Views</string>
+    <string name="seekbar">Seek Bar</string>
+    <string name="rating">Rating Bar</string>
+
+    <array name="names">
+        <item>"naresh"</item>
+        <item>"bnk"</item>
+        <item>"kumar"</item>
+        <item>"hello"</item>
+        <item>"nndafhriuf"</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
